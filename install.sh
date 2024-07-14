@@ -10,6 +10,8 @@ if sudo apt install tmux ; then
 
   git clone "https://github.com/tmux-plugins/tpm.git" \
     "${HOME}/.config/tmux/plugins/tpm/"
+    
+  echo -e "tmux successfully installed!\n"
 
 else
   
