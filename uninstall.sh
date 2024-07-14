@@ -7,11 +7,11 @@ if sudo apt remove tmux ; then
   if rm -rf "${HOME}/.config/tmux/" ; then
     echo -e "tmux successfully uninstalled!\n"
   else
-    echo -e "Failed to remove ~/.config/tmux/ directory.\n"
+    echo -e "\033[0;31mFailed to remove ~/.config/tmux/ directory.\033[0m\n"
   fi
 
 else
 
-  echo -e "tmux uninstallation failed.\n"
+  echo -e "\033[0;31mtmux uninstallation failed.\033[0m\n"
 
 fi

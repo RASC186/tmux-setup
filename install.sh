@@ -15,6 +15,6 @@ if sudo apt install tmux ; then
 
 else
   
-  echo -e "tmux installation failed."
+  echo -e "\033[0;31mtmux installation failed.\033[0m\n"
 
 fi
