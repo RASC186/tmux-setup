@@ -2,7 +2,7 @@
 
 echo -e "\n\033[32mtmux Installer\033[0m\n"
 
-if sudo apt install -y tmux ; then
+if sudo apt install tmux ; then
 
   mkdir -p "${HOME}/.config/tmux/plugins/"
 
