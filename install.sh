@@ -6,7 +6,7 @@ if sudo apt install -y tmux ; then
 
   mkdir -p "${HOME}/.config/tmux/plugins/"
 
-  cp "./tmux.conf" "${HOME}/.config/tmux/"
+  cp "./tmux/tmux.conf" "${HOME}/.config/tmux/"
 
   git clone "https://github.com/tmux-plugins/tpm.git" \
     "${HOME}/.config/tmux/plugins/tpm/"
