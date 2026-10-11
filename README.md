@@ -1,6 +1,6 @@
 # tmux Installer
 
-This project contains scripts to install and configure tmux in a Debian-based Linux distribution.
+This project contains scripts to install and uninstall tmux in a Debian-based Linux distribution.
 
 ## Prerequisites
 
@@ -18,7 +18,7 @@ To install tmux, run
 ./install
 ```
 
-To uninstall tmux, run
+To uninstall tmux and remove all configuration files, run
 
 ```
 ./uninstall
